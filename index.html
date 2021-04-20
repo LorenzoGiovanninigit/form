@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Form</title>
+</head>
+<body>
+    <form action="" name="myForm">
+        <ul>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="text" id="mail" name='user_mail'>
+                <div id="issueE" class="issue"></div>
+                
+            </li>
+            <li>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name=user_country>
+                <div id="issueC" class="issue"></div>
+            </li>
+            <li>
+                <label for="zip">Zip code:</label>
+                <input type="number" name="user_zip" id="zip">
+                <div id="issueZ" class="issue"></div>
+            </li>
+            <li>
+                <label for="pass">Password:</label>
+                <input type="password" name="user_pass" id="pass">
+                <div id="issueP" class="issue"></div>
+            </li>
+            <li>
+                <label for="pass2">Password confirmation:</label>
+                <input type="password" name="user_pass2" id="pass2">
+                <div id="issueP2" class="issue"></div>
+            </li>
+            <li class="button">
+                <button type="submit">Submit</button>
+            </li>
+        </ul></form>
+    <script src="app.js"></script>
+</body>
+</html>
